@@ -144,17 +144,13 @@
 
 			.btn {
 			    width: 451px;
-			    background-color: #4CAF50;
+			    background-color: #FF3300;
 			    color: white;
 			    padding: 14px 20px;
 			    margin: 8px 0;
 			    border: none;
 			    border-radius: 4px;
 			    cursor: pointer;
-			}
-
-			.btn:hover {
-			    background-color: #FF3300;
 			}
 		</style>
 		<script>
