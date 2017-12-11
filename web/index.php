@@ -29,9 +29,6 @@
 			   text-transform:uppercase;
 			}
 
-
-			/*** Table Styles **/
-
 			.table-fill {
 			  background: white;
 			  border-radius:3px;
@@ -46,7 +43,7 @@
 			}
 
 			th {
-			  color:#D5DDE5;;
+			  color:#D5DDE5;
 			  background:#1b1e24;
 			  border-bottom:4px solid #9ea7af;
 			  border-right: 1px solid #343a45;
@@ -77,7 +74,7 @@
 			}
 
 			tr:hover td {
-			  background:#4E5066;
+			  background:#66FF33;
 			  color:#FFFFFF;
 			  border-top: 1px solid #22262e;
 			}
@@ -95,7 +92,7 @@
 			}
 
 			tr:nth-child(odd):hover td {
-			  background:#4E5066;
+			  background:#66FF33;
 			}
 
 			tr:last-child td:first-child {
@@ -118,7 +115,7 @@
 			}
 
 			td:last-child {
-			  border-right: 0px;
+			  border-right: 1px;
 			}
 
 			th.text-left {
@@ -157,7 +154,7 @@
 			}
 
 			.btn:hover {
-			    background-color: #45a049;
+			    background-color: #FF3300;
 			}
 		</style>
 		<script>
