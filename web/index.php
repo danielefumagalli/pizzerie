@@ -50,7 +50,7 @@
 			$json=curl_exec($ch) or die(curl_error());
 			# Decodifico json
 			$data = json_decode($json);
-			echo "<table class='flat-table'>";
+			echo "<table align='center'class='flat-table'>";
 			echo"<tbody>";
 				echo "<tr>";
 					echo "<th>NOME</th>";
@@ -75,7 +75,8 @@
 			echo "</table>";
 			curl_close($ch);
 			echo "<form id='forma' method='post' onsubmit='return controllo();'><br/>";
-			echo "<table>";
+			echo "<table align='center' class='flat-table'>";
+			echo"<tbody>";
 			echo "<tr>";
 			echo " <td>Numero righe (1-50): </td><td><input type='text' value='$tot' name='tot' id='tot' /></td>";
 			echo "</tr>";
@@ -85,6 +86,7 @@
 			echo "<tr>";
 			echo " <td>Cosa vuoi cercare?: </td><td><input type='text' value='$qu' name='qu' id='qu' /></td><br/>";
 			echo "</tr>";
+			echo"</tbody>";
 			echo "</table>";
 			echo " <input type='submit' value='Aggiorna tabella' class='btn'/>";
 			echo "</form>";
