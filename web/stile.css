@@ -1,3 +1,7 @@
+.body
+{
+  align: center;
+}
 .flat-table {
   display: block;
   font-family: sans-serif;
