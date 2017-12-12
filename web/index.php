@@ -73,7 +73,7 @@
 						echo "</td>";
 					echo "</tr>";
 				}
-			echo"<tbody>";
+			echo"</tbody>";
 			echo "</table>";
 			curl_close($ch);
 			echo "<form id='forma' method='post' onsubmit='return controllo();'><br/>";
