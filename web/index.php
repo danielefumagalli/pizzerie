@@ -50,7 +50,7 @@
 			$json=curl_exec($ch) or die(curl_error());
 			# Decodifico json
 			$data = json_decode($json);
-			echo "<table class='flat-table' align='center'>";
+			echo "<table class='flat-table'>";
 			echo"<tbody>";
 				echo "<tr>";
 					echo "<th>NOME</th>";
