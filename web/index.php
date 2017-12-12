@@ -88,6 +88,7 @@
 			echo "</tr>";
 			echo"</tbody>";
 			echo "</table>";
+			echo "</br>";
 			echo " <input type='submit' value='Aggiorna tabella' class='btn'/>";
 			echo "</form>";
 		?>
