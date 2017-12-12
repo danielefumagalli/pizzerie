@@ -51,11 +51,14 @@
 			# Decodifico json
 			$data = json_decode($json);
 			echo "<table>";
+			echo "<thead>";
 				echo "<tr>";
 					echo "<th>NOME</th>";
 					echo "<th>LATITUDINE</th>";
 					echo "<th>LONGITUDINE</th>";
 				echo "</tr>";
+			echo "<thead>";
+			echo"<tbody>";
 				for($i=0; $i<$tot; $i++)
 				{
 					echo "<tr>";
@@ -70,6 +73,7 @@
 						echo "</td>";
 					echo "</tr>";
 				}
+			echo"<tbody>";
 			echo "</table>";
 			curl_close($ch);
 			echo "<form id='forma' method='post' onsubmit='return controllo();'><br/>";
