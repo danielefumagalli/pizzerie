@@ -50,8 +50,7 @@
 			$json=curl_exec($ch) or die(curl_error());
 			# Decodifico json
 			$data = json_decode($json);
-			echo "<div align='center'>";
-			echo "<table class='flat-table'>";
+			echo "<table class='flat-table' align='center'>";
 			echo"<tbody>";
 				echo "<tr>";
 					echo "<th>NOME</th>";
@@ -89,7 +88,6 @@
 			echo "</table>";
 			echo " <input type='submit' value='Aggiorna tabella' class='btn'/>";
 			echo "</form>";
-			echo "</div>";
 		?>
 	</body>
 </html>
