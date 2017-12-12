@@ -4,6 +4,7 @@ body
 }
 .flat-table {
   display: block;
+  margin: auto;
   font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 115%;
